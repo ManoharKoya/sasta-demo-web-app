@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../resources/cool-background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.background {
+    position: fixed;
+    display: block;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1000;
+}
+
+/* 
+.background {
+    position: relative;
+    left: 10rem;
+    resize: both;
+    overflow: auto;
+} */

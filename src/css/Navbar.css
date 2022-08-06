@@ -1,0 +1,37 @@
+.web-title a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: 700;
+    font-variant: small-caps;
+    color: #f64c72;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 600;
+    font-variant: small-caps;
+    color: #ffa500;
+    padding: 0 0.50rem 0 0.50rem;
+    margin: 0.5rem;
+    border-radius: 12px;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+    background-color: #f64c72;
+    color: white;
+}
